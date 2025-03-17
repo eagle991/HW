@@ -15,4 +15,9 @@ public class Truck extends org.example.MotorTransport {
         super.service();
         checkTrailer();
     }
+
+    @Override
+    public void checkEngine() {
+
+    }
 }

@@ -9,11 +9,13 @@ public abstract class MotorTransport extends org.example.WheeledTransport {
 
 
     public void cneckEngine() {
-        System.our.println("Проверяем двигатель у транспорта" + getModelName());
+        System.out.println("Проверяем двигатель у транспорта" + getModelName());
     }
 
     @Override
     public void service() {
         super.service();
     }
+
+    public abstract void checkEngine();
 }

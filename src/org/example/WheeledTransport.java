@@ -1,6 +1,6 @@
 package org.example;
 
-public abstract class WheeledTransport implements org.example.Transport {
+public abstract class WheeledTransport implements org.exemple.Transport {
 
 
 
